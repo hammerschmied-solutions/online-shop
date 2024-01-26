@@ -1,0 +1,35 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 20px;
+  height: 1.4rem;
+}
+.navigation-links {
+  display: flex;
+  gap: 40px;
+}
+.navigation-cart {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  border: black solid 2px;
+  padding: 5px;
+}
+.shopping-cart-image {
+  height: 1.2rem;
+  width: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-bar,
+.navigation-cart,
+.navigation-links {
+  align-items: center;
+}
